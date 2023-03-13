@@ -1,0 +1,53 @@
+/*
+	Css for application design
+*/
+body {
+	background-color : #ccc;
+	padding : 0 0 0 0;
+	margin : 0 0 0 0;
+}
+h1, h2, h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding : 10px 10px 10px 10px;
+} 
+#id_container {
+	background-color : #98d7fc;
+}
+
+
+#list_employes {
+	height : 400px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	text-align : center;
+	width : 100%;
+	background-color : #c0c0c0;
+}
+#child {
+	/*width: 100px;
+  	height: 100px;*/
+}
+#myTable, #myTable td  {
+	border : 1px solid #ff8000;
+	border-collapse: collapse;
+	padding : 5px 10px 5px 10px;
+}
+#td_title {
+	color : #ffffff;
+	background : black;
+}
+.myButton {
+	width : 100%;
+	text-align : center; 
+}
+#button_1 {
+	background : #ff8000;
+	padding : 5px 10px 5px 10px;
+}
+#button_2 {
+	background : #ff80c0;
+	padding : 5px 10px 5px 10px;
+}
+
